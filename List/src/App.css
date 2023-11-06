@@ -1,0 +1,122 @@
+body {
+  font-family: arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url("./img//imagem.jfif");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.app {
+  max-width: 600px;
+  margin-left: 272px;
+  background-color: #efefef;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.remove {
+  background-color: #d953af;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-bottom: 3px;
+  width: 100%;
+}
+
+/* teste */
+
+/* Adicione estilos ao Navbar */
+nav {
+  background-color: #efefef; /* Cor de fundo*/
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 10px 10px 10px 10px; /* Bordas arredondadas */
+  text-align: center; /* Centralizar o texto */
+  max-width: 640px; /* Defina a largura máxima desejada */
+  margin: 0 auto; /* Centralize esse negocio no negocio de baixo */
+  margin-bottom: 20px; /* espaço na parte inferior */
+}
+
+ul {
+  /* list-style: none; /* Remover marcadores de lista */
+  padding: 0; /* Remover espaçamento interno da lista */
+}
+
+li {
+  display: inline; /* Exibir os itens da lista em linha */
+  margin: 0 50px; /* Espaçamento entre os itens da lista */
+}
+
+a {
+  text-decoration: none; /* Remover sublinhado do link */
+  color: #333974; /* Cor do texto do link */
+  font-weight: bold; /* Negrito no texto do link */
+  transition: color 0.3s; /* transição de cor suave */
+}
+
+/* quando o mouse passa sobre o navbar */
+a:hover {
+  color: #ff6600; /* a cor de quando o mouser esta em cima */
+}
