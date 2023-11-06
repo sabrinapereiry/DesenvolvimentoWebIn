@@ -1,5 +1,3 @@
-import { useState } from "react";
-import Todo from "../../components/todo";
 import TodoForm from "../../components/TodoForm";
 
 import "../../App.css";
@@ -37,7 +35,10 @@ export function CreateTask() {
   };
 
   return (
-    <div className="app">
+    <div
+      style={{ height: "100%", marginTop: "2rem", width: "37.5rem" }}
+      className="app"
+    >
       <h1>Criação de tarefas</h1>
       <div className="todo-list">
         <TodoForm addTodo={addTodo} />

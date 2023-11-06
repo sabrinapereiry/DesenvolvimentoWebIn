@@ -2,7 +2,15 @@ import { Link } from "react-router-dom";
 
 export const Navebar = () => {
   return (
-    <nav>
+    <nav
+      style={{
+        width: "45rem",
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignSelf: "center",
+      }}
+    >
       <ul>
         <li>
           <Link to="/">Criar Tarefa</Link>

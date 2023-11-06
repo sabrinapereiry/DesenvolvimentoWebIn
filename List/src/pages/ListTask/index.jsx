@@ -28,7 +28,10 @@ export function ListTask() {
   };
 
   return (
-    <div className="app">
+    <div
+      style={{ height: "100%", marginTop: "2rem", width: "37.5rem" }}
+      className="app"
+    >
       <h1>lista de tarefas</h1>
       <Search search={search} setSearch={setSearch} />
       {arraySalvo
